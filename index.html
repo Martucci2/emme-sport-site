@@ -15,11 +15,32 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
+<nav class="navbar">
+  <div class="hamburger" onclick="toggleMenu()">
+    ☰
+  </div>
 
-<header class="hero-img">
-  <img src="logo.png" alt="Emme Sport" class="hero-image">
+  <ul id="menu">
+    <li><a href="#home">Home</a></li>
+    <li><a href="#prodotti">Prodotti in vetrina</a></li>
+    <li><a href="#arrivi">Ultimi arrivi</a></li>
+    <li><a href="#promo">Promozioni</a></li>
+    <li>
+      <a href="https://www.instagram.com/emme_sportt/" target="_blank">
+        Instagram
+      </a>
+    </li>
+    <li>
+      <a href="https://wa.me/393396306167" target="_blank">
+        WhatsApp
+      </a>
+    </li>
+  </ul>
+</nav>
 
-  <div class="hero-content">
+<header class="hero-split" id="home">
+
+  <div class="hero-left">
     <h1>EMME SPORT</h1>
     <p>Negozio di abbigliamento sportivo</p>
 
@@ -33,7 +54,13 @@
       </a>
     </div>
   </div>
+
+  <div class="hero-right">
+    <img src="logo.png" alt="Emme Sport" class="hero-image">
+  </div>
+
 </header>
+
 
 <section>
   <h2>CHI SIAMO</h2>
