@@ -186,16 +186,24 @@ footer {
   font-size: 0.85rem;
 }
 .hero-img {
-  position: relative;
   height: 100vh;
-  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #000000;
 }
 
+
 .hero-image {
-  max-width: 90%;
+  max-width: 85%;
+  max-height: 80vh;
   height: auto;
-  object-fit: none;
+  width: auto;
+  display: block;
+  margin: 0 auto;
+  object-fit: contain;
 }
+
 
 
 
@@ -203,14 +211,15 @@ footer {
   position: absolute;
   bottom: 0;
   width: 100%;
-  padding: 60px 20px;
+  padding: 50px 20px;
   background: linear-gradient(
     to top,
-    rgba(0, 0, 0, 0.85),
+    rgba(0, 0, 0, 0.9),
     rgba(0, 0, 0, 0)
   );
   text-align: center;
 }
+
 
 .hero-content h1 {
   color: #ff7a00;
