@@ -14,6 +14,13 @@
   <title>Emme Sport</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
+  <script>
+  function toggleMenu() {
+    const menu = document.getElementById("menu");
+    menu.style.display = menu.style.display === "block" ? "none" : "block";
+  }
+</script>
+
 <body>
 <nav class="navbar">
   <div class="hamburger" onclick="toggleMenu()">
